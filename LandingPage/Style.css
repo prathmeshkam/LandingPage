@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(img/nature.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-size: 100% 100%;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 109vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: aquamarine;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 67px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+ul li a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 300px;
+    height: 41px;
+    border: 1px solid black;
+    margin-left: 50px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0px;
+}
+
+.srch::placeholder {
+    color: black;
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 80px;
+    height: 42px;
+    float: left;
+    background: orange;
+    border: 1px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: none;
+    padding: 0px;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.con {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.con .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.con h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+}
+
+.con .bt {
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    transition: .4s ease;
+}
+
+.con .bt a {
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.bt:hover {
+    background-color: white;
+}
+
+.login {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    left: 870px;
+    top: -20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.login h2 {
+    width: 230px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.login input {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.login input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+.login .btnn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.login .btnn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btnn:hover {
+    background-color: white;
+}
+
+.login .link {
+    margin-left: 20px;
+    width: 200px;
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.login .link a {
+    text-decoration: none;
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.lw {
+    padding: 10px;
+    text-align: center;
+}
+
+.ic a {
+    text-decoration: none;
+    color: white;
+}
+
+.ic ion-icon {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.ic ion-icon:hover {
+    color: orange;
+}
